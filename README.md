@@ -5,7 +5,7 @@ It builds and evaluates multiple **GNN architectures** with **different pooling 
 
 ## Highlights
 - Implements configurable GNN backbones: `ChebConv, GATConv, GINConv` (via PyTorch Geometric)
-- Supports pooling strategies: `ASAPooling, EdgePooling, SAGPooling, TopKPooling` (e.g., hierarchical/Top-K, SAG, ASA, Edge)
+- Supports pooling strategies: `ASAPooling, EdgePooling, SAGPooling, TopKPooling` (e.g., hierarchical/Top-K, SAG, ASA, Edge) with the help binary code to benchmark different combination pooling configuration.
 - Trains and validates on **HCP-based NeuroGraph** datasets (e.g., `HCPGender`, `HCPActivity`)
 - Stratified train/val/test splits with early stopping
 - Exports metrics (accuracy, precision, recall, F1), confusion matrix, and training curves
