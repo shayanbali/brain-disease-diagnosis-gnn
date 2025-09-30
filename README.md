@@ -42,9 +42,8 @@ pip install torchmetrics scikit-learn matplotlib seaborn
 
 ### Option A — Run in Google Colab
 1. Upload this notebook to Colab.
-2. Mount Drive (first cell handles `drive.mount('/content/drive')` if enabled).
-3. Ensure your data is available under `data/` (or adjust `root` in the notebook).
-4. Run all cells.
+2. Ensure your data is available under `data/` (or adjust `root` in the notebook).
+3. Run all cells.
 
 ### Option B — Run Locally (Jupyter)
 1. Create and activate a virtual environment; install dependencies.
